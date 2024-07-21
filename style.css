@@ -1,0 +1,134 @@
+/* style.css */
+.orange{
+    background: rgba(255, 205, 158, 1);
+    display: flex;
+    padding-bottom: 10px;
+}   
+
+.black{
+    background: rgba(40, 40, 40, 1);
+    color:aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif; 
+     
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    margin: 77px;
+    width: 216px;
+    height: 36px;
+    top: 654px;
+    left: 191px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
+    justify-content:center;
+   
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: 77px;
+    width: 216px;
+    height: 36px;
+    top: 654px;
+    left: 191px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
+    text-align: right;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+h1{
+    font-family:sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+text-align: left;
+justify-content: center;
+padding-top: 100px;
+padding-left: 60px;
+padding-bottom: 10px;
+
+}
+
+p{
+    font-family: sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+text-align: left;
+justify-content: center;
+padding-top: 0px;
+padding-left: 40px;
+padding-bottom: 20px;
+
+}
+
+h3{
+    padding-left: 60px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+form{
+   padding-left: 60px;
+   padding-bottom: 20px;
+    font-family: sans-serif;
+    color: rgb(248, 240, 240);
+}
+
+
+
+button{
+    background-color: black;
+    border-radius: 50px;
+    border: none;
+}
+
+
+ 
+.orange p1{
+    padding-left: 70px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+img{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+h1, p, h3, form, p2{
+    display: flex;
+    padding-left: 90px;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+input{
+    display: flex;
+    align-content: space-between;
+}
